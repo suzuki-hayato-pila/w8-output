@@ -2,22 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ログインフォーム</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
   </head>
   <body>
     <div class="login-container">
-      <!-- <h1>ログイン</h1> -->
       <h2>Sign in to your account</h2>
-      <div class="your email">your email</div>
-      <form>
+      <div class="your-email">your email</div>
+      <form id="login-form">
         <input type="email" placeholder="name@company.com" required />
       </form>
       <div class="password">password</div>
       <form>
-        <input type="password" placeholder="・・・・・・・・" required />
+        <input type="password" />
       </form>
       <form>
         <button type="submit">Sign in</button>
@@ -27,5 +26,6 @@
         <a href="#">Sign up</a>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
